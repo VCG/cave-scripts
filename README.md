@@ -27,7 +27,9 @@ About Columns:
 
 ### Annotations
 
-`dbcells-dump.csv` contains annotations previously done for H01. `dbcells_dump_table_data.h5` is a table ingested into CAVE.
+`dbcells-dump.csv` contains annotations previously done for H01. 
+
+`dbcells_dump_table_data.h5` is a table ingested into CAVE.
 
 About Columns:
 
