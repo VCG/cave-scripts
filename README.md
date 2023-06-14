@@ -1,9 +1,17 @@
 # CAVE Query Scripts for H01
 
+## Setup
+Setup a virtual environment using [virtualenv](https://virtualenv.pypa.io/en/latest/).
+``` bash
+virtualenv -p python3.9 venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Notebooks
 
-In the notebooks folder, there are several working scripts to interact with caveclient.
-If you are the first time using the caveclient, please start with [CAVEsetup](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVEsetup.ipynb).
+In the notebooks folder, there are several working scripts to interact with CaveClient.
+If you are the first time using the CaveClient, please start with [CAVEsetup](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVEsetup.ipynb).
 
 ## Data
 
