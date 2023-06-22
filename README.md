@@ -1,8 +1,10 @@
 # CAVE Query Scripts for H01
 
 ## Setup
+
 Setup a virtual environment using [virtualenv](https://virtualenv.pypa.io/en/latest/).
-``` bash
+
+```bash
 virtualenv -p python3.9 venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -35,7 +37,7 @@ About Columns:
 
 ### Annotations
 
-`dbcells-dump.csv` contains annotations previously done for H01. 
+`dbcells-dump.csv` contains annotations previously done for H01.
 
 `dbcells_dump_table_data.h5` is a table ingested into CAVE.
 
@@ -63,3 +65,7 @@ About Columns:
   - 16: 'undecided' (unspecified blood vessel cell)
   - 17: 'Endothelial cells'
   - 18: 'circulating imm'
+
+### SNEMI
+
+You can download SNEMI data in [here](http://rhoana.rc.fas.harvard.edu/dataset/snemi.zip)
