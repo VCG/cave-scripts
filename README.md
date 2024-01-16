@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### Request CAVE permission
 
-Submit [this form](https://forms.gle/tpbndoL1J6xB47KQ9) to request access. We will respond within 24h. If you don't hear back, please email us (jinhanchoi@g.harvard.edu).
+Submit [this form](https://forms.gle/tpbndoL1J6xB47KQ9) to request access. We will respond within 24h. If you don't hear back, please [email us](maitto:jinhanchoi@g.harvard.edu).
 
 ### CAVE credentials
 
