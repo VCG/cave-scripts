@@ -37,11 +37,13 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 * Visualizing CAVE annotation tables in Neuroglancer - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Display_Annotations.ipynb)
 * Downloading Meshes of Proofread Neurons - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Mesh_Download.ipynb)
 * Query Materialized Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Materialization.ipynb)
-* Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb).
+* Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb)
+* View Segment Proofreading Changelog - [website_service](https://local.brain-wire-test.org/progress/api/v1/query?rootid=864691132406661507&dataset=&submit=true)
 
 ## Limitations / Known Issues
 
 Programmatic access to H01 through CAVE is fairly new. So expect improvements, and please report bugs by opening an issue in the repository. 
 
 ## Acknowledgements
+
 We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Chris Jordan, Nico Kemnitz, Derrick Brittain, and Will Silversmith for their efforts in making CAVE open-source. 
