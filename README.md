@@ -1,6 +1,6 @@
 ## About
 
-This repository contains scripts for programmatic access to Lichtman Lab datasets hosted by [CAVE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10402030/) (Connectome Annotation and Versioning Engine). The scripts are written in Python and use the [CaveClient](https://caveclient.readthedocs.io/en/latest/?badge=latest). 
+This repository contains scripts for programmatic access to Lichtman Lab datasets hosted by [CAVE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10402030/) (Connectome Annotation and Versioning Engine). The scripts are written in Python and use the [CAVEClient](https://caveclient.readthedocs.io/en/latest/?badge=latest). 
 
 ## Supported Datasets
 
