@@ -32,4 +32,13 @@ Submit [this form](https://forms.gle/tpbndoL1J6xB47KQ9) to request access. We wi
 Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVEsetup.ipynb) to get your CAVE credentials. This assumes you have been approved in the previous step already.
 
 ## Tutorials
-Tutorials on how to use scripts in this repo are available in our [wiki](https://github.com/VCG/cave-scripts/wiki).
+
+* Creating Custom Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Create_Tables.ipynb)
+* Visualizing CAVE annotation tables in Neuroglancer - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Display_Annotations.ipynb)
+* Downloading Meshes of Proofread Neurons - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Mesh_Download.ipynb)
+* Query Materialized Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Materialization.ipynb)
+* Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb).
+
+## Limitations / Known Issues
+
+Programmatic Access to H01 is fairly new. So expect improvements and please report bugs through opening an issue in the repository. 
