@@ -41,4 +41,7 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 
 ## Limitations / Known Issues
 
-Programmatic access to H01 through CAVE is fairly new. So expect improvements, and please report bugs through opening an issue in the repository. 
+Programmatic access to H01 through CAVE is fairly new. So expect improvements, and please report bugs by opening an issue in the repository. 
+
+## Acknowledgements
+We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Chris Jordan, Nico Kemnitz, Derrick Brittain, and Will Silversmith for their efforts in making CAVE open-source. 
