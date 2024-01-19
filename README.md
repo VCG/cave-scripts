@@ -41,4 +41,4 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 
 ## Limitations / Known Issues
 
-Programmatic Access to H01 is fairly new. So expect improvements and please report bugs through opening an issue in the repository. 
+Programmatic access to H01 through CAVE is fairly new. So expect improvements, and please report bugs through opening an issue in the repository. 
