@@ -4,7 +4,7 @@ This repository contains scripts for programmatic access to Lichtman Lab dataset
 
 ## Supported Datasets
 
-* [H01](https://h01-release.storage.googleapis.com/proofreading.html) - (Shapson-Coe at al. 2021)
+* [H01](https://h01-release.storage.googleapis.com/proofreading.html) - (Shapson-Coe at al. 2021) - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5737328739876864)
 * Fish 1.0 (coming soon)
 
 Interactive proofreading can be done through [this link](ngl.brain-wire.org) - also check out the [proofreading tutorial](https://h01-release.storage.googleapis.com/proofreading.html). 
