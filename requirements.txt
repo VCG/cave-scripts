@@ -3,3 +3,5 @@ python-dotenv>=1.0.0
 ipykernel>=6.23.2
 nglui==2.14.3
 cloud-volume>=8.28.0
+seaborn>=0.13.2
+matplotlib>=3.8.4
