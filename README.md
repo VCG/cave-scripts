@@ -49,3 +49,27 @@ Programmatic access to H01 through CAVE is fairly new. So expect improvements, a
 ## Acknowledgements
 
 We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Chris Jordan, Nico Kemnitz, Derrick Brittain, and Will Silversmith for their efforts in making CAVE open-source. 
+
+## Cite
+Please consider citing the following articles, when using code from this repository. 
+
+```bibtex
+@article{dorkenwald2023cave,
+  title={CAVE: Connectome annotation versioning engine},
+  author={Dorkenwald, Sven and Schneider-Mizell, Casey M and Brittain, Derrick and Halageri, Akhilesh and Jordan, Chris and Kemnitz, Nico and Castro, Manual A and Silversmith, William and Maitin-Shephard, Jeremy and Troidl,    Jakob and others},
+  journal={bioRxiv},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory Preprints}
+}
+```
+
+```bibtex
+@article{shapson2021connectomic,
+  title={A connectomic study of a petascale fragment of human cerebral cortex},
+  author={Shapson-Coe, Alexander and Januszewski, Micha{\l} and Berger, Daniel R and Pope, Art and Wu, Yuelong and Blakely, Tim and Schalek, Richard L and Li, Peter H and Wang, Shuohong and Maitin-Shepard, Jeremy and others},
+  journal={BioRxiv},
+  pages={2021--05},
+  year={2021},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
