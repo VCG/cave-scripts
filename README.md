@@ -40,6 +40,7 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 * Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb)
 * View Segment Proofreading Changelog - [website_service](https://local.brain-wire-test.org/progress/api/v1/query?rootid=864691132406661507&dataset=&submit=true)
 * Count Edits over Time (Admins only) - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/count_edits.ipynb)
+* Query Synapses (coming soon)
 
 ## Limitations / Known Issues
 
