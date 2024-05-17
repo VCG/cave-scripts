@@ -64,12 +64,14 @@ Please consider citing the following articles, when using code from this reposit
 ```
 
 ```bibtex
-@article{shapson2021connectomic,
-  title={A connectomic study of a petascale fragment of human cerebral cortex},
+@article{shapson2024petavoxel,
+  title={A petavoxel fragment of human cerebral cortex reconstructed at nanoscale resolution},
   author={Shapson-Coe, Alexander and Januszewski, Micha{\l} and Berger, Daniel R and Pope, Art and Wu, Yuelong and Blakely, Tim and Schalek, Richard L and Li, Peter H and Wang, Shuohong and Maitin-Shepard, Jeremy and others},
-  journal={BioRxiv},
-  pages={2021--05},
-  year={2021},
-  publisher={Cold Spring Harbor Laboratory}
+  journal={Science},
+  volume={384},
+  number={6696},
+  pages={eadk4858},
+  year={2024},
+  publisher={American Association for the Advancement of Science}
 }
 ```
