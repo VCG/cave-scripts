@@ -1,6 +1,6 @@
-
 .env
 .idea/
 .ipynb_checkpoints/
 data/snemi/
 *.ply
+.DS_Store
