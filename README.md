@@ -1,19 +1,21 @@
 ## About
 
-This repository contains scripts for programmatic access to Lichtman Lab datasets hosted by [CAVE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10402030/) (Connectome Annotation and Versioning Engine). The scripts are written in Python and use the [CAVEClient](https://caveclient.readthedocs.io/en/latest/?badge=latest). 
+This repository contains scripts for programmatic access to Lichtman Lab datasets hosted by [CAVE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10402030/) (Connectome Annotation and Versioning Engine). The scripts are written in Python and use the [CAVEClient](https://caveclient.readthedocs.io/en/latest/?badge=latest).
 
 ## Supported Datasets
 
-* [H01](https://h01-release.storage.googleapis.com/proofreading.html) - (Shapson-Coe at al. 2024) - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5737328739876864)
-* Fish 1.0 - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5708658021236736) (more coming soon)
+- [H01](https://h01-release.storage.googleapis.com/proofreading.html) - (Shapson-Coe at al. 2024) - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5737328739876864)
+- Fish 1.0 - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5708658021236736) (more coming soon)
 
-Interactive proofreading can be done through [this link](https://ngl.brain-wire.org) - also check out the [proofreading tutorial](https://h01-release.storage.googleapis.com/proofreading.html). 
+Interactive proofreading can be done through [this link](https://ngl.brain-wire.org) - also check out the [proofreading tutorial](https://h01-release.storage.googleapis.com/proofreading.html).
 
 ## Getting Started
 
 ### Local Environment
 
 Setup a virtual environment using [virtualenv](https://virtualenv.pypa.io/en/latest/).
+
+#### For MacOS or Linux Users
 
 ```bash
 git clone https://github.com/VCG/cave-scripts.git
@@ -22,6 +24,28 @@ virtualenv -p python3.9 venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+
+#### For Windows Users
+
+```bash
+git clone https://github.com/VCG/cave-scripts.git
+cd cave-scripts
+python -m venv venv
+.\venv\Scripts\Activate
+pip install -r requirements.txt
+```
+
+#### Troubleshooting
+
+- If you receive the error message `virtualenv is not recognized`, please install virtualenv using `pip install virtualenv`.
+
+- When you try to activate the virtualenv with `.\venv\Scripts\Activate` and you have an error message `cannot be loaded because running scripts is disabled on this system.`, you need to change the execution policy of the Powershell.
+  ```
+  Get-ExecutionPolicy # check this returns Restricted
+  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+  Get-ExecutionPolicy # check this returns RemoteSigned
+  ```
+  Now, you can activate the virtualenv.
 
 ### Request CAVE permission
 
@@ -33,14 +57,14 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 
 ## Tutorials
 
-* Creating Custom Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Create_Tables.ipynb)
-* Visualizing CAVE annotation tables in Neuroglancer - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Display_Annotations.ipynb)
-* Downloading Meshes of Proofread Neurons - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Mesh_Download.ipynb)
-* Query Materialized Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Materialization.ipynb)
-* Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb)
-* View Segment Proofreading Changelog - [website_service](https://local.brain-wire-test.org/progress/api/v1/query?rootid=864691132406661507&dataset=&submit=true)
-* Count Edits over Time (Admins only) - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/count_edits.ipynb)
-* Query Synapses - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Synapses.ipynb)
+- Creating Custom Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Create_Tables.ipynb)
+- Visualizing CAVE annotation tables in Neuroglancer - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Display_Annotations.ipynb)
+- Downloading Meshes of Proofread Neurons - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Mesh_Download.ipynb)
+- Query Materialized Annotation Tables - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Materialization.ipynb)
+- Uploading Custom Annotations to CAVE - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Upload_Data.ipynb)
+- View Segment Proofreading Changelog - [website_service](https://local.brain-wire-test.org/progress/api/v1/query?rootid=864691132406661507&dataset=&submit=true)
+- Count Edits over Time (Admins only) - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/count_edits.ipynb)
+- Query Synapses - [notebook](https://github.com/VCG/cave-scripts/blob/master/notebooks/Query_Synapses.ipynb)
 
 ## Limitations / Known Issues
 
@@ -48,10 +72,11 @@ Programmatic access to H01 through CAVE is fairly new. So expect improvements, a
 
 ## Acknowledgements
 
-We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Chris Jordan, Nico Kemnitz, Derrick Brittain, and Will Silversmith for their efforts in making CAVE open-source. 
+We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mizell, Chris Jordan, Nico Kemnitz, Derrick Brittain, and Will Silversmith for their efforts in making CAVE open-source.
 
 ## Cite
-Please consider citing the following articles, when using code from this repository. 
+
+Please consider citing the following articles, when using code from this repository.
 
 ```bibtex
 @article{dorkenwald2023cave,
