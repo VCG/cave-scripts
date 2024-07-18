@@ -68,7 +68,7 @@ Use [this script](https://github.com/VCG/cave-scripts/blob/master/notebooks/CAVE
 
 ## Limitations / Known Issues
 
-Programmatic access to H01 through CAVE is fairly new. So expect improvements, and please report bugs by opening an issue in the repository.
+Programmatic access to H01 & Fish 1.0 through CAVE is fairly new. So expect improvements, and please report bugs by opening an issue in the repository.
 
 ## Acknowledgements
 
