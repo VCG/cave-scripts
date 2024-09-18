@@ -4,3 +4,5 @@
 data/snemi/
 *.ply
 .DS_Store
+notebooks/wip/
+data/wip/
