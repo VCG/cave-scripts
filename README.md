@@ -35,17 +35,26 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-#### Troubleshooting
 
-- If you receive the error message `virtualenv is not recognized`, please install virtualenv using `pip install virtualenv`.
+<details>
+  <summary>Troubleshooting</summary>
 
-- When you try to activate the virtualenv with `.\venv\Scripts\Activate` and you have an error message `cannot be loaded because running scripts is disabled on this system.`, you need to change the execution policy of the Powershell.
-  ```
-  Get-ExecutionPolicy # check this returns Restricted
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  Get-ExecutionPolicy # check this returns RemoteSigned
-  ```
-  Now, you can activate the virtualenv.
+  - If you receive the error message `virtualenv is not recognized`, please install virtualenv using `pip install virtualenv`.
+
+  - When you try to activate the virtualenv with `.\venv\Scripts\Activate` and you have an error message `cannot be loaded because running scripts is disabled on this system.`, you need to change the execution policy of the Powershell.
+    ```
+    Get-ExecutionPolicy # check this returns Restricted
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Get-ExecutionPolicy # check this returns RemoteSigned
+    ```
+    Now, you can activate the virtualenv.
+  
+</details>
+  
+
+
+
+
 
 ### Request CAVE permission
 
