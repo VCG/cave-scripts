@@ -5,3 +5,7 @@ nglui==2.14.3
 cloud-volume>=8.28.0
 seaborn>=0.13.2
 matplotlib>=3.8.4
+google-cloud-bigtable
+tensorstore
+gcsfs
+packaging==22.0
