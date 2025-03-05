@@ -5,7 +5,7 @@ This repository contains scripts for programmatic access to Lichtman Lab dataset
 ## Supported Datasets
 
 - [H01](https://h01-release.storage.googleapis.com/proofreading.html) - (Shapson-Coe at al. 2024) - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5737328739876864)
-- Fish 1.0 - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5708658021236736) (more coming soon)
+- Fish 1.0 - [Latest Proofread Version](https://ngl.brain-wire.org/#!middleauth+https://global.brain-wire-test.org/nglstate/api/v1/5729029856428032) (more coming soon)
 
 Interactive proofreading can be done through [this link](https://ngl.brain-wire.org) - also check out the [proofreading tutorial](https://h01-release.storage.googleapis.com/proofreading.html).
 
@@ -35,17 +35,26 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-#### Troubleshooting
 
-- If you receive the error message `virtualenv is not recognized`, please install virtualenv using `pip install virtualenv`.
+<details>
+  <summary>Troubleshooting</summary>
 
-- When you try to activate the virtualenv with `.\venv\Scripts\Activate` and you have an error message `cannot be loaded because running scripts is disabled on this system.`, you need to change the execution policy of the Powershell.
-  ```
-  Get-ExecutionPolicy # check this returns Restricted
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-  Get-ExecutionPolicy # check this returns RemoteSigned
-  ```
-  Now, you can activate the virtualenv.
+  - If you receive the error message `virtualenv is not recognized`, please install virtualenv using `pip install virtualenv`.
+
+  - When you try to activate the virtualenv with `.\venv\Scripts\Activate` and you have an error message `cannot be loaded because running scripts is disabled on this system.`, you need to change the execution policy of the Powershell.
+    ```
+    Get-ExecutionPolicy # check this returns Restricted
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Get-ExecutionPolicy # check this returns RemoteSigned
+    ```
+    Now, you can activate the virtualenv.
+  
+</details>
+  
+
+
+
+
 
 ### Request CAVE permission
 
