@@ -88,12 +88,13 @@ We thank Akhilesh Halageri, Sven Dorkenwald, Forrest Collman, Casey Schneider-Mi
 Please consider citing the following articles, when using code from this repository.
 
 ```bibtex
-@article{dorkenwald2023cave,
+@article{dorkenwald2025cave,
   title={CAVE: Connectome annotation versioning engine},
-  author={Dorkenwald, Sven and Schneider-Mizell, Casey M and Brittain, Derrick and Halageri, Akhilesh and Jordan, Chris and Kemnitz, Nico and Castro, Manual A and Silversmith, William and Maitin-Shephard, Jeremy and Troidl,    Jakob and others},
-  journal={bioRxiv},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory Preprints}
+  author={Dorkenwald, Sven and Schneider-Mizell, Casey M and Brittain, Derrick and Halageri, Akhilesh and Jordan, Chris and Kemnitz, Nico and Castro, Manual A and Silversmith, William and Maitin-Shephard, Jeremy and Troidl, Jakob and others},
+  journal={Nature Methods},
+  pages={1--9},
+  year={2025},
+  publisher={Nature Publishing Group US New York}
 }
 ```
 
@@ -107,5 +108,14 @@ Please consider citing the following articles, when using code from this reposit
   pages={eadk4858},
   year={2024},
   publisher={American Association for the Advancement of Science}
+}
+```
+
+```bibtex
+@article{petkova2025connectomic,
+  title={A connectomic resource for neural cataloguing and circuit dissection of the larval zebrafish brain},
+  author={Petkova, Mariela D and Januszewski, Micha{\l} and Blakely, Tim and Herrera, Kristian J and Schuhknecht, Gregor FP and Tiller, Robert and Choi, Jinhan and Schalek, Richard L and Boulanger-Weill, Jonathan and Peleg, Adi and others},
+  journal={bioRxiv},
+  year={2025}
 }
 ```
